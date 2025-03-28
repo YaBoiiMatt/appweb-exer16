@@ -12,6 +12,6 @@ hero:
       link: /mathieu-cote
     - theme: alt
       text: API Examples
-      link: /api-examples
+      link: /cedric-gourdes
 ---
 
