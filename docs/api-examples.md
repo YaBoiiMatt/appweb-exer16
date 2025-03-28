@@ -1,49 +1,19 @@
----
-outline: deep
----
+# 🎯 TP1 Mathieu Coté
 
-# Runtime API Examples
+## 📝 Documenté par Cédric Gourdes
 
-This page demonstrates usage of some of the runtime APIs provided by VitePress.
+Ce projet a été réalisé dans le cadre du cours **420-W40-SF - Développement d'applications Web** (Hiver 2025) au **Cégep de Sainte-Foy**. L’objectif est de développer une application Web de type **Single Page Application (SPA)** en respectant les bonnes pratiques de développement avec Vue.js 3, TypeScript 5.7, Vite, Pinia et Bootstrap 5.
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+## 🚀 Fonctionnalités principales
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+- Architecture SPA avec Vue Router
+- Gestion d'état globale avec Pinia
+- Utilisation de Bootstrap 5 pour le design
+- Appels API asynchrones avec Axios
+- Authentification via JWT
+- Tests unitaires avec Vitest
+- Tests d'intégration avec Cypress
+- Déploiement sur GitHub Pages
 
-const { theme, page, frontmatter } = useData()
-</script>
+## 📁 Structure du projet
 
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
-
-<script setup>
-import { useData } from 'vitepress'
-
-const { site, theme, page, frontmatter } = useData()
-</script>
-
-## Results
-
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
