@@ -11,6 +11,6 @@ hero:
       link: /mathieu-cote
     - theme: brand
       text: TP1 Mathieu
-      link: /api-examples
+      link: /cedric-gourdes
 ---
 
