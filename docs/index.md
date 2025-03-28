@@ -5,13 +5,12 @@ layout: home
 hero:
   name: "Documentation Travail Pratique 1"
   text: "Documentation des travaux pratiques en appweb faite par un pair"
-  tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: TP1 Cédric
       link: /mathieu-cote
-    - theme: alt
-      text: API Examples
+    - theme: brand
+      text: TP1 Mathieu
       link: /api-examples
 ---
 

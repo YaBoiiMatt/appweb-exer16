@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-	title: "Documentation Travail Pratique 1",
+	title: "Documentation TP1",
 	description:
 		"Documentation des travaux pratiques en appweb faite par un pair",
 	themeConfig: {
