@@ -5,6 +5,7 @@ export default defineConfig({
 	title: "Documentation TP1",
 	description:
 		"Documentation des travaux pratiques en appweb faite par un pair",
+		base: '/appweb-exer16/',
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
