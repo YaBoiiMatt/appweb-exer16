@@ -9,21 +9,21 @@ export default defineConfig({
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: "Home", link: "/" },
-			{ text: "Examples", link: "/markdown-examples" },
+			{ text: "TP Cédric", link: "/mathieu-cote" },
+			{ text: "TP Mathieu", link: "/cedric-gourdes" },
 		],
 
 		sidebar: [
 			{
-				text: "Examples",
+				text: "TPs",
 				items: [
-					{ text: "Markdown Examples", link: "/markdown-examples" },
+					{
+						text: "Documentation Cédric Gourdes",
+						link: "/mathieu-cote",
+					},
 					{ text: "Runtime API Examples", link: "/api-examples" },
 				],
 			},
-		],
-
-		socialLinks: [
-			{ icon: "github", link: "https://github.com/vuejs/vitepress" },
 		],
 	},
 });
