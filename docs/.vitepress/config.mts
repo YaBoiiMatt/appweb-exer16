@@ -19,10 +19,13 @@ export default defineConfig({
 				text: "TPs",
 				items: [
 					{
-						text: "Documentation Cédric Gourdes",
+						text: "Documentation TP Cédric Gourdes",
 						link: "/mathieu-cote",
 					},
-					{ text: "Runtime API Examples", link: "/api-examples" },
+					{
+						text: "Documentation TP Mathieu Côté",
+						link: "/cedric-gourdes",
+					},
 				],
 			},
 		],
